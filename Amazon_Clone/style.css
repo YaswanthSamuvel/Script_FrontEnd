@@ -1,0 +1,783 @@
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+
+body{
+    background-color: #e3e6e6;
+}
+
+.navbar{
+    background-color: #131921;
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+.nav_logo{
+    width: 151px;
+    height: 56px;
+    background-image: url(img/nav_icon.png);
+    position: relative;
+    top: 10px;
+    border: 2px solid transparent;
+}
+
+.nav_logo:hover{
+     border: 2px solid white;
+     cursor: pointer;
+}
+
+.address{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 8px;
+    width: 90px;
+    height: 56px;
+    border: 2px solid transparent;
+}
+
+.address:hover{
+     border: 2px solid white;
+     cursor: pointer;
+}
+
+.fst{
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+
+.address-icon{
+    display: flex;
+    position: relative;
+    top: 10px;
+}
+
+.snd{
+    position: relative;
+    left: 5px;
+}
+
+.searchbar{
+    display: flex;
+}
+
+.dropdown{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+select{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-color: transparent;
+    width: 51.6px;
+    height: 40px;
+    background-color: #E6E6E6;
+}               
+
+select:hover{
+    cursor: pointer;
+    background-color: #dcdcdc;
+}
+
+input{
+    width: 700px;
+    height: 37.8px;
+    position: relative;
+    top: 20px;  
+    left: 30px;
+    border: none;
+    font-size: large;
+}
+
+.search-icon{
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color: #febd69;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+}
+
+.search-icon:hover{
+    cursor: pointer;
+    background-color: #f3a847;
+}
+
+.lang{
+    color: white;
+    display: flex;
+    position: relative;
+    left: 40px;
+    top: 16px;
+    border: 2px solid transparent;
+    width: 60px;
+    height: 30px;
+    padding: 10px;
+}
+
+.eng{
+    position: relative;
+    left: 5px;
+    top: 6px;
+    font-weight:bolder;
+}
+
+.lang:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.sign{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 50px;
+    border: 2px solid transparent;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+}
+
+.sign:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.signin{
+    font-size: 12px;
+}
+
+.account{
+    font-size: 14px;
+}
+
+.purchase{
+    color: white;
+    position: relative;
+    height: 30px;
+    top: 15px;
+    left: 55px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+
+.purchase:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.return{
+    font-size: 12px;
+}
+
+.order{
+    font-size: 14px;
+}
+
+.basket{
+    color: white;
+    position: relative;
+    top: 10px;
+    left:80px;
+    font-size: 38px;
+    display: flex;
+    border: 2px solid transparent;
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+}
+
+.basket:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.cart{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.count{
+    width: 32px;
+    height: 20px;
+    background-color: #131921;
+    position: relative;
+    top: 18px;
+    left: -3px;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 13% 100%);
+    color: #f08804;
+}
+
+.num{
+    position: relative;
+    bottom: 4px;
+    left: 4px;
+    font-size: 20px;
+}
+
+.infobar{
+    height: 45px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+}
+
+.hamburger{
+    color: white;
+    display: flex;
+    position: relative;
+    width: 60px;
+    height: 40px;
+    border: 2px solid transparent;
+    align-items: center;
+    justify-content: center;
+    left: 10px; 
+}
+
+.hamburger:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.all{
+    position: relative;
+    bottom: 0.5px;
+    left: 5px;
+}
+
+.pages{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    bottom: 13px;
+}
+
+.anchor{
+    color: white;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    margin-left: 15px;
+    border: 2px solid transparent;
+    padding: 5px;
+}
+
+.anchor:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.GFF{
+    border: 3px solid transparent;
+    position: relative;
+    top: 12px;
+    left: 80px;
+    padding: 5px;
+}
+
+.GFF:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.main-page{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+main{
+    height: 680px;
+}
+
+.content{
+    background-image: url(img/background.jpg);
+    width: 1486px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+}
+
+.content::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(to bottom, rgba(227, 230, 230, 0) 0%, rgb(227, 230, 230) 100%);
+    pointer-events: none;
+}
+
+.keep-shopping{
+    width: 290.138px;
+    height: 410px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    left: 40px;
+    bottom: 380px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.box1{
+    position: relative;
+    top: 10px;
+    left: -10px;
+    display: inline-block;
+}
+
+.box1:hover{
+    cursor: pointer;
+}
+
+.box2{
+    position: relative;
+    top: 14px;
+    left: 10px;
+    display: inline-block;
+}
+
+.box2:hover{
+    cursor: pointer;
+}
+
+.box2 img{
+    position: relative;
+    bottom: 10px;
+}
+
+.box3{
+    position: relative;
+    top: 25px;
+    left: -10px;
+}
+
+.box3:hover{
+    cursor: pointer;
+}
+
+.box4{
+    position: relative;
+    top: 22px;
+    left: 45px;
+}
+
+.box4:hover{
+    cursor: pointer;
+}
+
+.box4 img{
+    position: relative;
+    left: 40px;
+}
+
+.para1{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    font-size: 20px;
+}
+
+.para2{
+    color: #565959;
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.link_keep-shopping{
+    text-decoration: none;
+    color: Blue;
+    position: relative;
+    top: 25px;
+    height: max-content;
+}
+
+
+.offer{
+    width: 290.138px;
+    height: 410px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    left: 390px;
+    bottom: 830px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.offbox1{
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
+.offbox1:hover{
+    cursor: pointer;
+}
+
+.offbox2{
+    position: relative;
+    left: 150px;
+    top: -105px;
+}
+
+.offbox2:hover{
+    cursor: pointer;
+}
+
+.offbox3{
+    position: relative;
+    bottom: 60px;
+    left: -10px;
+}
+
+.offbox3:hover{
+    cursor: pointer;
+}
+
+.offbox4{
+    position: relative;
+    bottom: 176px;
+    left: 150px;
+}
+
+.offbox4:hover{
+    cursor: pointer;
+}
+
+.off-para{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.link_keep-shopping1{
+    text-decoration: none;
+    color: Blue;
+    position: relative;
+    top: 6px;
+    right: 150px;
+    height: max-content;
+}
+
+.offer2{
+    width: 290.138px;
+    height: 410px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    left: 740px;
+    bottom: 1280px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.offbox5{
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
+.offbox5:hover{
+    cursor: pointer;
+}
+
+.offbox6{
+    position: relative;
+    left: 150px;
+    top: -105px;
+}
+
+.offbox6:hover{
+    cursor: pointer;
+}
+
+.offbox7{
+    position: relative;
+    bottom: 60px;
+    left: -10px;
+}
+
+.offbox7:hover{
+    cursor: pointer;
+}
+
+.offbox8{
+    position: relative;
+    bottom: 176px;
+    left: 150px;
+}
+
+.offbox8:hover{
+    cursor: pointer;
+}
+
+.link_keep-shopping2{
+    text-decoration: none;
+    color: Blue;
+    position: relative;
+    top: 6px;
+    right: 150px;
+    height: max-content;
+}
+
+.signin_for_main{
+    width: 350px;
+    height: 115px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    bottom: 1730px;
+    left: 1090px;
+}
+
+.signbutton{
+    width: 334px;
+    height: 30px;
+    background-color: #ffd814;
+    border-radius: 20px;
+    border-style: none;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-size: 15px;
+}
+
+.signbutton:hover{
+    background-color: #f7ca00;
+    cursor: pointer;
+}
+
+.samsung{
+    width: 300px;
+    height: 270px;
+    background-image: url(img/samsung.jpg);
+    background-size: cover;
+    position: relative;
+    bottom: 1705px;
+    left: 1135px;
+}
+
+.offer3{
+    width: 1400px;
+    height: 265px;
+    background-color: white;
+    position: relative;
+    bottom: 1680px;
+    left: 41px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offer3head{
+    height: max-content;
+}
+
+.off3box1{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.off3box1:hover{
+    cursor: pointer;
+}
+
+.off3box2{
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+
+.off3box2:hover{
+    cursor: pointer;
+}
+
+.off3box3{
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+.off3box3:hover{
+    cursor: pointer;
+}
+
+.off3box4{
+    position: relative;
+    top: 5px;
+    left: 70px;
+}
+
+.off3box4:hover{
+    cursor: pointer;
+}
+
+.off3box5{
+    position: relative;
+    top: 6px;
+    left: 475px;
+}
+
+.off3box5:hover{
+    cursor: pointer;
+}
+
+.off3box6{
+    position: relative;
+    top: 6px;
+    left: -75px;
+}
+
+.off3box6:hover{
+    cursor: pointer;
+}
+
+.off3box7{
+    position: relative;
+    top: 4px;
+    left: -55px;
+}
+
+.off3box7:hover{
+    cursor: pointer;
+}
+
+.offer3link{
+    width: max-content;
+    height: fit-content;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    text-decoration: none;
+    color: blue;
+}
+
+.offer3link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.flexoffer3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+}
+
+.offer4{
+    width: 1400px;
+    height: 265px;
+    background-color: white;
+    position: relative;
+    bottom: 1660px;
+    left: 41px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.off4box1{
+    position: relative;
+    top: 60px;
+    right: 530px;
+}
+
+.off4box1:hover{
+    cursor: pointer;
+}
+
+.off4box2{
+    position: relative;
+    top: 60px;
+    right: 510px;
+}
+
+.off4box2:hover{
+    cursor: pointer;
+}
+
+.off4box3{
+    position: relative;
+    top: 60px;
+    right: 490px;
+}
+
+.off4box3:hover{
+    cursor: pointer;
+}
+
+.off4box4{
+    position: relative;
+    top: 60px;
+    right: 470px;
+}
+
+.off4box4:hover{
+    cursor: pointer;
+}
+
+.off4box5{
+    position: relative;
+    top: -123px;
+    left: 805px;
+}
+
+.off4box5{
+    cursor: pointer;
+}
+
+.off4box6{
+    position: relative;
+    top: -123px;
+    left: 825px;
+}
+
+.off4box6:hover{
+    cursor: pointer;
+}
+
+.off4box7{
+    position: relative;
+    top: -123px;
+    left: 845px;
+}
+
+.off4box7:hover{
+    cursor: pointer;
+}
+
+.end{
+    position: relative;
+    text-align: center;
+    bottom: 1500px;
+}
