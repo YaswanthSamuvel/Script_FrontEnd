@@ -1,0 +1,24 @@
+✨ My Portfolio Project ✨
+        
+        📌 Purpose:
+                 > To showcase my introduction, skills, projects, and contact information.
+                 > To practice the basics of web development with simple HTML and CSS.
+        
+        📚 Learning Outcome:
+                 > Gained confidence in structuring web pages using HTML.
+                 > Learned how to apply simple CSS styles and hover effects.          
+                 > Practiced linking multiple pages together.          
+                 > Understood how to organize sections for a personal portfolio.
+        
+        𝙏𝙝𝙞𝙨 𝙬𝙖𝙨 𝙢𝙮 𝙛𝙞𝙧𝙨𝙩 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙚 𝙥𝙧𝙤𝙟𝙚𝙘𝙩 𝙖𝙛𝙩𝙚𝙧 𝙨𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝙬𝙞𝙩𝙝 𝙬𝙚𝙗 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩.
+
+Image Links :
+
+    1) Profil : https://png.pngtree.com/png-vector/20231019/ourmid/pngtree-user-profile-avatar-png-image_10211467.png
+    2) C : https://img.icons8.com/?size=512&id=40670&format=png
+    3) C++ : https://img.icons8.com/?size=512&id=40669&format=png
+    4) Python : https://img.icons8.com/color/200/python.png
+    5) MySQL : https://img.icons8.com/?size=512&id=9nLaR5KFGjN0&format=png
+    6) HTML : https://cdn-icons-png.freepik.com/512/5968/5968267.png
+    7) CSS : https://cdn-icons-png.flaticon.com/512/5968/5968242.png
+    8) JS : https://pnghq.com/wp-content/uploads/javascript-shield-png-download.png 
